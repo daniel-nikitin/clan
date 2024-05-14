@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sub-login.css">
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form class="form">
+    <div class="form-head">
+        <a href="website.html" class="btn-back"><</a>
+        <h3 class="form-title">заявка на членство</h3>
+    </div>
+    <div class="form-body">
+        <fieldset class="nickname-field">
+            <legend> your nickname is in real life :^)</legend>
+            <input type="text" class="fname" placeholder="name" name="fname">
+            <input type="text" class="sname" placeholder="second name" name="sname">
+        </fieldset>
+
+
+        <p class="gender">your gender</p>
+        <div class="input-wrapper">
+            <input type="radio" name="gender" value="male" class="male-radio" id="male-radio">
+            <label for="male-radio">M</label>
+            <input type="radio" name="gender" value="female" class="female-radio" id="female-radio">
+            <label for="female-radio">F</label>
+        </div>
+        <div class="input-wrapper">
+            <input type="checkbox" value="got18" class="age" id="age" name="age">
+            <label for="age">i am 18 years old</label>
+        </div>
+
+        <div class="input-wrapper">
+            <label for="game">your discipline</label>
+            <select name="game" id="game" class="game">
+                <option value="tf2">TF2</option>
+                <option value="gtao">GTAO</option>
+                <option value="cs2">CS2</option>
+            </select>
+        </div>
+                <textarea name="comment" id="comment" placeholder="additional info" class="comment"></textarea>
+                <button class="submit">send a request</button>
+    </div>
+</form>
+</body>
+</html>
